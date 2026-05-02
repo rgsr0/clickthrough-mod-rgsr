@@ -1,0 +1,6 @@
+{
+  "key.clickthrough.toggle": "Переключить ClickThrough",
+  "key.categories.clickthrough": "ClickThrough",
+  "clickthrough.msg.active": "ClickThrough: ВКЛЮЧЁН",
+  "clickthrough.msg.inactive": "ClickThrough: ВЫКЛЮЧЕН"
+}

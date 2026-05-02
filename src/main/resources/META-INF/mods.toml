@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+    modId="clickthrough"
+    version="1.0.0"
+    displayName="ClickThrough Plus"
+    description='''
+        Click through Signs and Item Frames to Chests and other containers.
+        Port of ClickThrough Plus to Forge 1.16.5.
+    '''
+
+[[dependencies.clickthrough]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.clickthrough]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="CLIENT"
+
+# This mod is CLIENT-SIDE ONLY — does not need to be installed on the server
+[dependencies.clickthrough.clientSideOnly]
+    clientSideOnly=true

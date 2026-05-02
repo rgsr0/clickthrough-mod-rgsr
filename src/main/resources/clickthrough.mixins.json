@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "cc.cassian.clickthrough.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "client": [
+    "ItemUseMixin",
+    "SneakingCancelsInteractionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
